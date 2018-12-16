@@ -29,3 +29,7 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 ## Results
 
 * RaspberryPi prints the current voltage (voltage), remaining power (percentage), and interrupt alert information (if any) every 2 seconds.
+* The default value of the battery low power interrupt alert threshold is 32%. That is, when the remaining power is lower than 32%, a falling edge interrupt is generated on the ALR pin. This threshold can be set to any integer between 1-32 (corresponding to 1%-32%, respectively) with the function setInterrupt().
+* When the battery's initial remaining power is higher than interrupt alert threshold, the ALR pin is set high. If it falls below the threshold (due to discharge) , the ALR pin is pulled to low. The controller is triggered to print ”Low power alert interrupt!”, and then clear interrupt through clearInterrupt(), which causes ALR back to high immediately.
+* When the battery's initial remaining power is below interrupt alert threshold, the ALR pin will generate an interrupt at the beginning.
+* After the battery remaining power grows higher than interrupt alert threshold (due to discharge) , another interrupt will be generated when the power again falls below the threshold (due to discharge). If the clearInterrupt() is not called after the interrupt is occurred, the ALR pin will remain low regardless of the statue of the battery.
