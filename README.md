@@ -21,12 +21,12 @@ pi@raspberrypi:~ $ git clone https://github.com/DFRobot/DFRobot_MAX17043.git
 pi@raspberrypi:~ $ cd ~/DFRobot_MAX17043/RaspberryPi/python
 pi@raspberrypi:~/DFRobot_MAX17043/RaspberryPi/python $ python DFRobot_MAX17043.py
 ```
-## Read Battery Voltage, Remaining Power and Set Low Power Interrupt Alert
+### Read Battery Voltage, Remaining Power and Set Low Power Interrupt Alert
 ```
 pi@raspberrypi:~/DFRobot_MAX17043/RaspberryPi/python $ cd readAndInt
 pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAndInt.py
 ```
-## Results
+### Results
 
 * RaspberryPi prints the current voltage (voltage), remaining power (percentage), and interrupt alert information (if any) every 2 seconds.
 * The default value of the battery low power interrupt alert threshold is 32%. That is, when the remaining power is lower than 32%, a falling edge interrupt is generated on the ALR pin. This threshold can be set to any integer between 1-32 (corresponding to 1%-32%, respectively) with the function setInterrupt().
@@ -34,3 +34,4 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 * When the battery's initial remaining power is below interrupt alert threshold, the ALR pin will generate an interrupt at the beginning.
 * After the battery remaining power grows higher than interrupt alert threshold (due to discharge) , another interrupt will be generated when the power again falls below the threshold (due to discharge). If the clearInterrupt() is not called after the interrupt is occurred, the ALR pin will remain low regardless of the statue of the battery.
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/picommend.jpg)
+## NodeMCU(NodeMCU-07) Installation
