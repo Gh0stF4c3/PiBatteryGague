@@ -4,7 +4,7 @@ Becareful of the position. Pi Battery Gague must be connected with Pin(3~8).
 Any size of 3.7V Li-battery is OK, it could also work as a small UPS.
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/pibatterygague.jpg)
 
-## Installation
+## Raspberry Pi Installation
 1.Open the I2C interface of the Raspberry Pi.If it is already open, skip this step. Open Terminal, type the following command, and press Enter:
 ```
  pi@raspberrypi:~ $ sudo raspi-config
