@@ -15,3 +15,15 @@ Then use the up and down keys to select “5 Interfacing Options” -> “P5 I2C
 pi@raspberrypi:~ $ sudo apt-get update
 pi@raspberrypi:~ $ sudo apt-get install build-essential python-dev python-smbus git
 ```
+3.Download the driver library and run it. In Terminal, type the following commands, and press Enter:
+```
+pi@raspberrypi:~ $ git clone https://github.com/DFRobot/DFRobot_MAX17043.git
+pi@raspberrypi:~ $ cd ~/DFRobot_MAX17043/RaspberryPi/python
+pi@raspberrypi:~/DFRobot_MAX17043/RaspberryPi/python $ python DFRobot_MAX17043.py
+```
+## Read Battery Voltage, Remaining Power and Set Low Power Interrupt Alert
+```
+pi@raspberrypi:~/DFRobot_MAX17043/RaspberryPi/python $ cd readAndInt
+pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAndInt.py
+```
+## Results
