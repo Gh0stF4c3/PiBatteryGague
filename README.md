@@ -27,3 +27,5 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspberryPi/python $ cd readAndInt
 pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAndInt.py
 ```
 ## Results
+
+* RaspberryPi prints the current voltage (voltage), remaining power (percentage), and interrupt alert information (if any) every 2 seconds.
