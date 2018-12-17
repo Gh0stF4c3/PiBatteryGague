@@ -37,4 +37,4 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 ## NodeMCU(NodeMCU-07) Installation
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/nodemcu07gague.jpg)
 ### Results
-
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/nodemcu07test.jpg)
