@@ -44,3 +44,11 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 5. Connect your board, select the correct COM port and click upload test file of this page.
 ### Results
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/nodemcu07test.jpg)
+
+##  Arduino Installation and other application
+
+https://www.dfrobot.com/wiki/index.php/Gravity:_3.7V_Li_Battery_Fuel_Gauge_SKU:_DFR0563
+https://www.sparkfun.com/products/10617
+
+
+
