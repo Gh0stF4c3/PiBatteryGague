@@ -35,3 +35,4 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 * After the battery remaining power grows higher than interrupt alert threshold (due to discharge) , another interrupt will be generated when the power again falls below the threshold (due to discharge). If the clearInterrupt() is not called after the interrupt is occurred, the ALR pin will remain low regardless of the statue of the battery.
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/picommend.jpg)
 ## NodeMCU(NodeMCU-07) Installation
+![](https://github.com/lspoplove/D-duino/blob/master/Documents/nodemcu07gague.jpg)
