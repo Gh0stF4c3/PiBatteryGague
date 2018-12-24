@@ -41,7 +41,7 @@ pi@raspberrypi:~/DFRobot_MAX17043/RaspbeeryPi/python/readAndInt $ python readAnd
 2. Install OLED library for esp8266: https://github.com/squix78/esp8266-oled-ssd1306
 3. Install Max17043 library for arduino: http://playground.arduino.cc/Main/MAX17043
 4. Select board DSTIKE by Travis Lin.
-5. Connect your board, select the correct COM port and click upload test file of this page.
+5. Connect your board, select the correct COM port and click upload "NodeMCUTest.ino" of this page.
 ### Results
 ![](https://github.com/lspoplove/D-duino/blob/master/Documents/nodemcu07test.jpg)
 
